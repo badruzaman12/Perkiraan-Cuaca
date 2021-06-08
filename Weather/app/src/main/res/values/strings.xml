@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="wind_current">wind</string>
+    <string name="pressure_current">pressure</string>
+    <string name="precip_current">Precip</string>
+    <string name="humidity_current">Humidity</string>
+    <string name="cloud_current">Cloud</string>
+    <string name="gust_current">Gust</string>
+    <string name="condition_current">condition</string>
+    <string name="temp_current">Temp</string>
+    <string name="last_update_current">Last Update</string>
+    <string name="location_current">Location</string>
+    <string name="forecast_day">Forecast Day</string>
+    <string name="average_temp">Average Temp</string>
+    <string name="forecast_condition">Forecast Condition</string>
+    <string name="max_temp">Maximal Temperature</string>
+    <string name="min_temp">Minimal Temperature</string>
+    <string name="avg_temp">Average Temperature</string>
+    <string name="max_wind">Maximum Wind</string>
+    <string name="total_precip">total precip</string>
+    <string name="condition_fc">condition fc</string>
+    <string name="tgl_fc">tgl fc</string>
+</resources>

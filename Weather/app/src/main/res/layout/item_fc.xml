@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/forecast_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white"
+            android:text="@string/forecast_day"/>
+
+
+        <TextView
+            android:id="@+id/forecast_avgtemp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:justificationMode="inter_word"
+            android:maxLines="2"
+            android:textColor="@color/white"
+            android:text="@string/average_temp" />
+
+
+        <TextView
+            android:id="@+id/forecast_condition"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:ellipsize="end"
+            android:justificationMode="inter_word"
+            android:maxLines="2"
+            android:textColor="@color/white"
+            android:text="@string/forecast_condition" />
+
+    </LinearLayout>
+
+</LinearLayout>
